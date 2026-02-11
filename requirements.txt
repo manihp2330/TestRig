@@ -1,0 +1,9 @@
+"""
+Project requirements.
+Install with: pip install -r requirements.txt
+"""
+
+streamlit>=1.31.0
+pandas>=2.0.0
+paramiko>=3.0.0
+pyserial>=3.5
