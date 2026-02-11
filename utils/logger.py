@@ -1,7 +1,7 @@
 """Custom logger for streaming logs to Streamlit UI."""
 import queue
 import streamlit as st
-from ..config import SESSION_KEYS
+from config import SESSION_KEYS
 
 
 class TeeLogger:

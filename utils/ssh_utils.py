@@ -1,7 +1,7 @@
 """SSH utilities using paramiko."""
 from typing import Tuple
 import paramiko
-from ..config import UI_DEFAULTS
+from config import UI_DEFAULTS
 
 
 class SSHClient:

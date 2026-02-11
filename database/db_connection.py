@@ -1,7 +1,7 @@
 """SQLite database connection management."""
 import sqlite3
 import streamlit as st
-from ..config import DB_PATH
+from config import DB_PATH
 
 
 def get_conn() -> sqlite3.Connection:
